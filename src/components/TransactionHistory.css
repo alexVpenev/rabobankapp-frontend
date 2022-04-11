@@ -1,0 +1,15 @@
+.history-container{
+  width: 160vh;
+  height: 85vh;
+  margin-top: 2%;
+  padding: 10px;
+  color: darkblue;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 430px) {
+  .history-container{
+    width: 45vh;
+  }
+}

@@ -1,0 +1,18 @@
+.services-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    flex-direction: row;
+ 
+}
+
+.services-section-container {
+    padding: 5% 0;
+}
+
+.services-section-header {
+    text-align: center;
+    padding-top: 1%;
+    color: darkblue;
+}

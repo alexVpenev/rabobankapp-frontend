@@ -1,0 +1,39 @@
+.register-container{
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.register-container h1{
+    text-align: center;
+    font-style: italic;
+    color: darkblue;
+    font-size: 36px;
+}
+
+.prefix p{
+    font-size: 18px;
+}
+
+.reg-container-1{
+    float: left;
+    width: 42.5%;
+    margin-left: 5%;
+}
+
+.reg-container-2{
+    float: left;
+    margin-left: 5%;
+    width: 42.5%;
+}
+
+input[type=submit]:disabled {
+
+}
+
+input[type=submit]:enabled {
+   background-color: orange;
+}
+    

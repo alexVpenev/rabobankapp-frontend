@@ -1,0 +1,24 @@
+.charity-row{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    flex-wrap: wrap;    
+    flex-direction: row;
+/* 
+    border: 1px solid black; */
+}
+
+.charity-row-wrapper h1{
+    text-align: center;
+    color: darkblue;
+}
+
+.charity-row-wrapper{
+    padding-top: 3%;
+}
+
+@media only screen and (max-width: 430px) {
+    .charity-row{
+        display: block;
+    }
+}

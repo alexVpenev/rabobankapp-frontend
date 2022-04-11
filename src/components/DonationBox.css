@@ -1,0 +1,17 @@
+.donation-button2{
+    width: 70%;
+    background: none;
+    background-color: rgb(105, 105, 241);
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 15px 0;
+    border-radius: 25px;
+}
+
+.donation-button2:hover{
+    background-color: orange;
+    transition: 0.5s;
+}

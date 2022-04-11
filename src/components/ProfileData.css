@@ -1,0 +1,65 @@
+.profile-data-card {
+  /* box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5); */
+  width: 20%;
+  /* left: 20px; */
+  /* display: inline-block; */
+  margin-top: 30px;
+  height: 85vh;
+  margin-left: 30px;
+  /* border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+
+  background-color: lightgray; */
+  border-right: 1px solid lightgray;
+}
+
+.profile-nav-bar div{
+  margin: 5%;
+}
+
+.profile-nav-bar a{
+  text-decoration: none;
+  color: darkblue;
+  margin: 1%;
+}
+
+.profile-nav-bar a:hover{
+  color: orange;
+}
+
+.payment-btn{
+  width: 90%;
+  text-align: center;
+  border: 1px solid darkblue;
+  border-radius: 15px;
+  padding: 5%;
+  margin-top: 5%;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-right: 3%;
+  background: none;
+  color: darkblue;
+}
+
+.payment-btn:hover{
+  border: 1px solid orange;
+  transition: 0.2s;
+  color: orange;
+}
+
+@media only screen and (max-width: 430px){
+  .profile-data-card{
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+  }
+
+  .profile-data-card p{
+    margin-left: 5%;
+  }
+
+  .payment-btn{
+    margin-left: 5%;
+  }
+
+}

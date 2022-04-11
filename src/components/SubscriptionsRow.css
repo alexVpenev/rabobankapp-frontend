@@ -1,0 +1,44 @@
+.supported-page {
+    width: 160vh;
+    height: 85vh;
+    margin-top: 2%;
+    padding: 10px;
+    color: darkblue;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.supported-page h2{
+    padding-top: 1%;
+}
+
+.subscription{
+    border-bottom: 1.5px solid lightgray;
+    padding: 1%;
+}
+
+.unsub-btn{
+    width: 90%;
+    padding: 1%;
+    background-color: rgb(255, 193, 77);
+    border: none;
+    margin: 0 5%;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;  
+    border-radius: 5px;
+}
+
+.unsub-btn:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 430px) {
+    .supported-page{
+        width: 45vh;
+        height: fit-content;
+    }
+}

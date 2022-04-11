@@ -1,0 +1,116 @@
+.charity-slider {
+    width: 80%;
+    height: 70vh;
+    margin: 0 10%;
+    border-radius: 20px;
+    /* position: relative; */
+    overflow: hidden;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.slider-buttons {
+    position: fixed;
+}
+
+.btn-slide {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.btn-slide img {
+    width: 25px;
+    height: 50px;
+    pointer-events: none;
+}
+
+.prev {
+    top: 55%;
+    left: 20px;
+    transform: translateY(-60%);
+}
+
+.next {
+    top: 55%;
+    right: 20px;
+    transform: translateY(-60%);
+}
+
+.charity-slider:hover .btn-slide {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.charity-slider-container{
+    /* background-color: lightgray; */
+    padding-top: 2%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.charity-slider-header{
+    padding-top: 1%;
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    color: darkblue;
+    margin-bottom: 1%;
+}
+
+.charity-slider-more{
+    text-align: center;
+    padding-bottom: 1%; 
+    font-size: 16px;
+    color: darkblue;
+}
+
+.charity-slider-link {
+    color: darkorange;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.charity-slider-link:hover{
+    color: orange;
+    transition: 0.2s;
+}
+
+@media only screen and (max-width: 430px){
+    .charity-slider{
+        height: 30vh;
+    }
+
+    .charity-slider-header{
+        font-size: 25px;
+        padding: 2%;
+    }
+
+    .btn-slide{
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+
+    .prev{
+        right: 20px;
+        top: 35%;
+    }
+
+    .next{
+        /* left: 10px; */
+        top: 35%;
+    }
+}

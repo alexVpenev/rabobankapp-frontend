@@ -1,0 +1,59 @@
+.player-scroll-btn{
+
+    width: 100px;
+    margin: 1.66%;
+    border-radius: 10px;
+
+    border: 1px solid black;
+}
+
+.player-scroll{
+
+    width: 100px;
+    margin: 1.66%;
+    border-radius: 10px;
+
+    border: 4px solid blue;
+}
+
+.charity-video{
+    width: 100%;
+    height: 70vh;
+}
+
+.subscribe-btn{
+    width: 100%;
+    padding: 1%;
+    background-color: rgb(255, 193, 77);
+    border: none;
+    margin: 1% 0;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;  
+    border-radius: 5px;
+}
+
+.subscribe-btn:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.change-video-buttons{
+    margin-left: 37%;
+}
+
+.change-video-buttons button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 5%;
+    opacity: 0.5;
+    transition: 0.2s;
+} 
+
+.change-video-buttons button:hover{
+    opacity: 1;
+    transition: 0.2s;
+}

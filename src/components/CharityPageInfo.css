@@ -1,0 +1,51 @@
+.charity-page-info-conatiner{
+    width: 60%;
+    float: left;
+    margin-top: 1%;
+}
+
+.charity-page-title{
+    padding: 1% 0;
+    margin-left: 9%;
+} 
+
+.charity-page-img{
+    margin-left: 9%;
+    /* background-color: lightgray; */
+    border-bottom: 1px solid gray;
+}
+
+.charity-page-description{
+    border-bottom: 1px solid gray;
+    margin: 1% 0;
+    margin-left: 9%;
+    height: 20vh;
+}
+
+.charity-page-description p{
+    padding: 1%;
+    
+}
+
+.charity-page-buttons{
+    display: flex;
+    margin: 1%;
+    margin-left: 9%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-test{
+    border: 0.1px solid black;
+    padding: 1%;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.button-test:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 8px 0px black;
+    transition: 0.1s;
+}

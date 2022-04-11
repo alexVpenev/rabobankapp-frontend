@@ -1,0 +1,30 @@
+.charity-slide {
+    width: 100%;
+    height: 100%;
+
+    opacity: 1;
+    transition: opacity ease-in 1s;
+}
+
+.charity-slide-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .charity-slide-info {
+    position: absolute;
+    margin: 3%;
+    bottom: 0px;
+    width: 100%;
+} */
+
+.charity-slide-info{
+    width: 100%;
+    text-align: center;
+    color: darkblue;
+}
+
+.charity-slide-info p{
+    color: orange;
+}

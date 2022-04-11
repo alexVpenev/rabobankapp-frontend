@@ -1,0 +1,9 @@
+.charity-page{
+    display: flex;
+}
+
+@media only screen and (max-width: 430px) {
+    .charity-page{
+        display: block;
+    }
+}

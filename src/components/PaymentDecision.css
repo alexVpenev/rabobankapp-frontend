@@ -1,0 +1,95 @@
+.ideal-logo{
+    cursor: pointer;
+    transition: 0.2s;
+    width: 30vh;
+    border-radius: 20px;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.ideal-logo:hover{
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.button-debit-card{
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    opacity: 0.8;
+    transition: 0.2s;
+    height: 10vh;
+    color: darkblue;
+    font-weight: bold;
+    background-color: orange;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+
+.button-debit-card:hover{
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.payment-popup h1{
+    text-align: center;
+}
+
+.payment-methods{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.paypal-logo{
+    cursor: pointer;
+    width: 35vh;
+    padding: 5%;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.paypal-logo:hover{
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.payment-popup h1{
+    color: darkblue;
+}
+
+.or {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid gray; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;    
+    color: black;
+}
+
+.or span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.payment-close-button{
+    width: 10vh;
+    height: 5vh;
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.payment-close-button:hover{
+    transition: 0.2s;
+    color: orange;
+}
+
+@media only screen and (max-width: 430px) {
+    .payment-methods{
+        display: block;
+    }
+}

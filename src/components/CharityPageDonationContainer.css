@@ -1,0 +1,55 @@
+.charity-page-donation-container{
+    width: 40%;
+    float: left;
+    margin-left: 60%;
+    position: fixed;
+}
+
+.charity-page-donation-box{
+    padding: 1% 0;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 11%;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.donation-button{
+    width:60%;
+    /* border: 1px solid black; */
+    padding: 3%;
+    margin: 3%;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: darkorange;
+    color: darkblue;
+    font-size: 18px;
+    border: none;
+    transition: 0.5s;
+}
+
+.donation-button:hover{
+    cursor: pointer;
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.charity-page-donation{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.charity-page-donation h3{
+    padding: 0 1%;
+}
+
+@media only screen and (max-width: 430) {
+    .charity-page-donation-container{
+        position: relative;
+        float: inline-end;
+        margin: 0;
+    }
+}

@@ -1,0 +1,17 @@
+.contacts-container{
+    display: flex;
+}
+
+.contact-links-container{
+    display: flex;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.contacts-container p{
+    padding: 1%;
+    font-style: italic;
+    width: 50%;
+    text-align: center;
+    margin-left: 10%;
+}

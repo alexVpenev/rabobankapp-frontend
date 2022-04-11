@@ -1,0 +1,22 @@
+.donation{
+    border: none;
+    width: 90%;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+    padding: 2% 0;
+    margin: 0 5%;
+}
+
+.donation h2{
+    margin-left: 5%;
+    font-weight: normal;
+}
+
+.single-donation-heading{
+    display: flex;
+}
+
+.donation h3{
+    display: flex;
+    margin-left: 18%;
+}

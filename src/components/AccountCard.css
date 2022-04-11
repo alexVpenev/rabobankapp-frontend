@@ -1,0 +1,27 @@
+.account-search{
+    height: auto;
+    width: 70vh;
+    margin-right: 1%;
+    padding: 1%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    transition: .2s
+}
+
+.account-search:hover{
+    color: orange;
+    transition: .2s;
+}
+
+.account-search img{
+    object-fit: contain;
+    margin-right: 3%;
+}
+
+@media only screen and (max-width: 430px) {
+    .account-search{
+        width: 30vh;
+    }
+}

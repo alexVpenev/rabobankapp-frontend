@@ -1,0 +1,38 @@
+.search-container-wrapper{
+    margin: 5%;
+}
+
+.search-header{
+    text-align: center;
+    color: darkblue;
+    font-style: italic;
+}
+
+.search-bar-box{
+    width: 70vh;
+    height: 10vh;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 30%;
+}
+
+.search-row{
+    margin-left: 30%;
+}
+
+
+@media only screen and (max-width: 430px) {
+    .search-container-wrapper{
+        width: 40vh;
+    }
+
+    .search-bar-box{
+        width: 30vh;
+        margin: 0 15%;
+    }
+
+    .search-row{
+        margin: 0 15%;
+        width: 30vh;
+    }
+}

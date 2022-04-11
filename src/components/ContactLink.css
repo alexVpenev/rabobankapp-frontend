@@ -1,0 +1,14 @@
+.contact-link{
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+.contact-icon{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.contact-icon:hover{
+    opacity: 1;
+    transition: 0.2s;
+}

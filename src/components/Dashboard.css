@@ -1,0 +1,57 @@
+.dashboard-container{
+    width: 160vh;
+    padding: 40px;
+    margin-top: 30px;
+    height: 87vh;
+    color: darkblue;
+    overflow-y: scroll;
+}
+
+.recent-box-headers td{
+    color: gray;
+    font-weight: bold;
+}
+
+.recent-conatiner{
+    width: 100%;
+}
+
+.recent-conatiner h2{
+    padding-bottom: 5%;
+}
+
+.recent-box-item td{
+    color: black;
+    border-bottom: 1px solid lightgray;
+}
+
+.transactions{
+    margin-top: 10%;
+}
+
+.amount{
+    text-align: right;
+    font-weight: bold;
+}
+
+.recent-box-item .amount{
+    color: orange;
+}
+
+.recent-box-item .sent{
+    color: red;
+}
+
+.recent-box-item .received{
+    color: green;
+}
+
+@media only screen and (max-width: 430px){
+    .dashboard-container{
+        width: 40vh;
+        overflow: hidden;
+        height: fit-content;
+
+    }
+
+}
